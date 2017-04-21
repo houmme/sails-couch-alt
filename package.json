@@ -1,0 +1,46 @@
+{
+  "name": "sails-couch-alt",
+  "version": "0.10.0",
+  "description": "The alternate couchdb adapter for Sails / Waterline",
+  "main": "sails-couch-altAdapter.js",
+  "scripts": {
+    "test": "node test/integration/runner -R spec -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "sails-couch-alt",
+    "adapter",
+    "sails",
+    "waterline",
+    "sails.js",
+    "plugin",
+    "couchdb"
+  ],
+  "author": "vipinr",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "async": "^2.3.0",
+    "nano": "^6.2.0",
+    "lodash": "^3.10",
+    "md5": "^2.2.1",
+    "node-uuid": "^1.4.7",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "waterline-adapter-tests": "~0.10.0",
+    "mocha": "*",
+    "captains-log": "~0.11.0"
+  },
+  "waterlineAdapter": {
+    "type": "sails-couch-alt",
+    "interfaces": [
+      "semantic",
+      "queryable"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
