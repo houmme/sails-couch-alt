@@ -1,6 +1,6 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# waterline-sails-couch-alt
+# sails-couch-alt
 
 Provides an alternate access mechanism to Apache Couchdb from Sails.js & Waterline.
 
