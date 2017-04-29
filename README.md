@@ -18,7 +18,7 @@ Ability to switch between all couch variants supported by nano
 To install this adapter, run:
 
 ```sh
-$ npm install waterline-sails-couch-alt
+$ npm install sails-couch-alt (Not deployed in npm registry yet. Coming soon)
 ```
 
 
